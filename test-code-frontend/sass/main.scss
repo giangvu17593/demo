@@ -1,0 +1,65 @@
+@import url(../fontawesome/css/font-awesome.css);
+@import "compass/reset";
+@media (min-width: 1200px)
+{
+.container {
+  max-width: 970px;
+}
+}
+.logo-text{color:#999;font-weight:700;line-height:27px;margin-bottom:9px;}
+.content-banner.jumbotron
+{
+  padding:48px 0 53px;
+  h1
+    {font-weight:700; margin-top:19px;margin-bottom:5px;}
+} 
+.marketing
+{
+  .column-one
+	{
+	  h2
+	  {
+	   font-weight:700;margin-top:23px;margin-bottom:9px;
+	    &:before 
+		{
+		   content: "\f058";
+		   font: normal normal normal 30px/1 FontAwesome;
+		   color:#3a87ad;padding-right:5px;
+		}
+	  }
+	  p 
+	   {
+	    color:#333;
+		line-height:20px;
+		margin-bottom:16px;
+	  }
+	  .more
+	    {
+		padding:7px 12px 8px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		color:#333;
+		text-decoration:none;
+		
+		  &:after 
+			{
+			   content: "\f101";
+			   font: normal normal normal 12px/1 FontAwesome;
+			   padding-left:5px;
+			}
+	  }
+	}
+	.form-horizontal
+	{
+		.form-group
+		{
+		  margin-bottom:6px;
+		 .form-name{margin:6px 0 10px;}
+		  h5{color:#333;font-weight:700;}
+		 .lname{font-weight:600;color:#999;}
+		  span{color:#777;margin-top:4px;display:inline-block;}
+		}
+	}
+}
